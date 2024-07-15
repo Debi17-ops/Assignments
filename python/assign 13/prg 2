@@ -1,0 +1,7 @@
+def upper_and_lower_case(s):
+    return (s.upper(), s.lower())
+
+input_string = "Hello World"
+result = upper_and_lower_case(input_string)
+print("Uppercase:", result[0])
+print("Lowercase:", result[1])

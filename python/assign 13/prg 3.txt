@@ -1,0 +1,13 @@
+
+def sort_key(sub_list):
+    return sub_list[0]
+
+# Final sorting list
+def final_sort(input_list):
+    sorted_list = sorted(input_list,key=sort_key)
+    return sorted_list
+
+# static input and printing the output
+input_list = [[5,7] , [9,11] , [7,3] , [0,12]]
+output = final_sort(input_list)                 # Function call
+print(output)
